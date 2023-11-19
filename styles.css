@@ -1,0 +1,36 @@
+#calculadora {
+    height: 342px;
+    width: 300px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+#calculadora form {
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    
+}
+
+#calculadora input[type=text] {
+    width: 270px;
+    height: 50px;
+    cursor: default;
+    background-color: white;
+    color: black;
+    padding: 15px;
+    text-align: right;
+    font-size: 50px;
+    border: 0;
+    outline: none;
+}
+
+#calculadora input[type=button], input[type=reset] {
+    width: 22%;
+    cursor: pointer;
+    font-size: 20px;
+    color: black;
+    padding: 18px;
+    margin: 3px;
+    border: 0;
+}
